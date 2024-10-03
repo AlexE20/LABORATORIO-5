@@ -1,0 +1,50 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.complete-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.incomplete-circle {
+  font-size: 20px;
+}
+
+.completed-icon {
+  color: #00ff00; 
+}
+
+.task-title {
+  flex-grow: 1;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.task-title.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.delete-btn:hover {
+  color: #ff0000;
+}

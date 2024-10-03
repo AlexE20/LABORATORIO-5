@@ -1,0 +1,18 @@
+.header-container {
+  background: var(--header-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12.5rem;
+  position: relative;
+  }
+  @media screen and (min-width: 768px) {
+  .newTask-Form {
+  width: 50%;
+  }
+  .newTask-Form input {
+  height: 4rem;
+  }
+  .newTask-Form button {
+  height: 4rem;
+  }}
