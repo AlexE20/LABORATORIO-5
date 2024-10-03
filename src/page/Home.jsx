@@ -38,7 +38,6 @@ const Home = () => {
   return (
     <div className="home-container">
       {<Header handleAddTask={addTask} />}
-      <Header handleAddTask={addTask} />
 
       {}
       <ViewTasks

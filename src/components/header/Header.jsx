@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LogoTodo from "../../assets/";
+import LogoTodo from "../../assets/icons/todoLogo.svg";
 import FormTask from "../form/FormTask";
 import "./Header.css";
 const Header = ({ handleAddTask }) => {

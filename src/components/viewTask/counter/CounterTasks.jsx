@@ -6,12 +6,12 @@ const CounterTasks = ({ tasks }) => {
     <div className="counter">
       <div>
         <p className="text-counter">Created tasks</p>
-        <span>{tasks.length}1</span>
+        <span>{tasks.length}</span>
       </div>
       <div>
         <p className="text-completed">Completed tasks</p>
         <span>
-          1{completedTasks} of {tasks.length}1
+          {completedTasks} of {tasks.length}
         </span>
       </div>
     </div>
